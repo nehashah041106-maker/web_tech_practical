@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ddd7dc;
+}
+
+.header {
+    background-color: #f37c86;
+    color: rgb(251, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.loginform {
+    background: rgb(207, 73, 124);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #323447;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #e795b1;
+    color: rgb(249, 252, 252);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
