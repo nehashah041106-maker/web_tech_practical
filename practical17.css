@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Practical 17</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #acc6dd;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #e0f698;
+            color: rgb(40, 39, 22);
+            text-align: center;
+            padding: 15px;
+        }
+
+        .content {
+            background-color: rgb(215, 227, 141);
+            width: 60%;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        h3 {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h3>neha shah</h3>
+        <h3>This is the practical solution for practical 17</h3>
+    </div>
+
+    <div class="content">
+        <!-- From here is our JavaScript Code -->
+        <script>
+            alert("Hello World.");
+            var num1, num2, addition, sub, mul, div;
+            num1 = 790;
+            num2 = 78;
+
+            addition = num1 + num2;
+            document.write("The sum is: " + addition);
+
+            sub = num1 - num2;
+            document.write("<br>The output is: " + sub);
+
+            mul = num1 * num2;
+            document.write("<br>The output is: " + mul);
+
+            div = num1 / num2;
+            document.write("<br>The output is: " + div);
+        </script>
+    </div>
+    <div class="footer">
+        <p>&copy; neha shah </p>
+    </div>
+</body>
+</html>

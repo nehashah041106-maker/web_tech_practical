@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Practical 18</title>
+        <link rel="stylesheet" href="../CSS/practical12.css">
+    </head>
+    <body>
+        <div class="header">
+            <h4>neha shah</h4>
+            <p>This is the practical solution for practical 18.</p>
+        </div>
+
+        <div class="content">
+            <div class="loginform">
+                <fieldset id="login">
+                    <legend>Login</legend>
+                        <p>
+                            <label for="user-name">Username</label>
+                            <input type="text" name="Username" id="name" placeholder="Enter your username " required>
+                        </p>
+                        <p>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </p>
+                        <p>
+                            <button onclick="validation()">Submit</button>
+                            <input type="reset" value="Reset">
+                         </p>   
+                            Don't have an account? <a href="practical11.html">Register</a>
+                        </p>
+                </fieldset>
+            </div>
+        </div>
+        <div class="validate">
+            <script>
+                function validation()
+                {
+                    var username = document.getElementById("name").value;
+                    var userPassword = document.getElementById("password").value;
+
+                    if(username == "" || userPassword == "")
+                {
+                    alert("Please enter your details.");
+                    return false;
+                }
+                else
+                {
+                    alert("You have succesfully logged in.");
+                    return true;
+                }
+
+                }
+            </script>
+        </div>
+        <div class="footer">
+            <p>&copy; neha shah</p>
+        </div>
+    </body>
+</html>

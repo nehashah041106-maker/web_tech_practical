@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Validation - Practical</title>
+     <link rel="stylesheet" href="../CSS/practical18.css">
+</head>
+<body>
+<div class="header">
+          <h4>neha shah</h4>
+        <p>This is the practical solution for practical 18b.</p>
+        </div>
+<h3>User Login</h3>
+
+<form onsubmit="return checkLogin()">
+    
+    <label>Username:</label><br>
+    <input type="text" id="user"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="pass"><br><br>
+
+    <input type="submit" value="Login">
+    <input type="reset" value="Clear">
+
+</form>
+
+<p id="msg" style="color:red;"></p>
+
+<script>
+    alert("Welcome! Please login to continue.");
+
+    function checkLogin() {
+        let user = document.getElementById("user").value.trim();
+        let pass = document.getElementById("pass").value.trim();
+        let message = document.getElementById("msg");
+
+        if (user === "" || pass === "") {
+            message.innerHTML = "Fields cannot be empty";
+            return false;
+        }
+
+       
+        if (user === "Atal" && pass === "1234") {
+            alert("Login Successful");
+            return true;
+        }
+
+        
+        message.innerHTML = "Invalid username or password";
+        return false;
+    }
+</script>
+   </div>
+        <div class="footer">
+            <p>&copy; neha shah</p>
+        </div>
+</body>
+</html>

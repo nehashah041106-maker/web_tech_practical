@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../assets/pexels-tanhatamannasyed-34742489.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(32, 82, 55, 0.5);
+}
+
+/* Navigation */
+.header nav ul {
+    padding: 5px;
+    text-align: center;
+}
+
+.header nav ul li {
+    padding: 5px;
+    list-style-type: none;
+    display: inline;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+.maincontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Boxes */
+.content1,
+.content2,
+.content3,
+.content4 {
+    background-color: rgba(0, 255, 200, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
